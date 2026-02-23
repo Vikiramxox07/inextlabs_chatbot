@@ -1,3 +1,4 @@
+raise Exception("FORCED CRASH")
 import json
 import os
 import streamlit as st
