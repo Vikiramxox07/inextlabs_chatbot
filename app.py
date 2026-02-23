@@ -10,7 +10,6 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-pro")
 
 st.set_page_config(page_title="iNextLabs Support Bot")
-st.set_page_config(page_title="iNextLabs Support Bot")
 st.title("🤖 iNextLabs Customer Support Bot")
 st.write("Powered by Google AI Studio (Gemini)")
 
