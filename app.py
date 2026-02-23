@@ -1,3 +1,4 @@
+raise Exception("Persistent Failure")
 import json
 import os
 import streamlit as st
