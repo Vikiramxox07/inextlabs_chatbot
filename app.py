@@ -14,6 +14,12 @@ st.set_page_config(page_title="iNextLabs Support Bot")
 st.title("🤖 iNextLabs Customer Support Bot")
 st.write("Powered by Google AI Studio (Gemini)")
 
+st.divider()
+st.subheader("SRE Test Section")
+
+if st.button("Trigger SRE Failure"):
+    raise Exception("SRE Test Failure")
+
 @st.cache_data
 def load_data():
     with open("support_data.json", "r", encoding="utf-8") as f:
