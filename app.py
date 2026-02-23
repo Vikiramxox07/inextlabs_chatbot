@@ -1,4 +1,5 @@
-raise Exception("FORCED CRASH")
+import os
+os._exit(1)
 import json
 import os
 import streamlit as st
